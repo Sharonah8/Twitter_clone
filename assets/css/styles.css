@@ -35,9 +35,9 @@ body{
         display: flex;
     }
 }
-.width-size{
+/* .width-size{
     width: 33.33%;
-}
+} */
 
 .sidebar{
     width: 60%;
@@ -129,4 +129,92 @@ body{
     position: absolute;
     bottom: 0;
     margin-bottom: 15px;
+}
+
+
+
+.sidebar{
+    width: 25% !important;
+}
+.feed{
+    width: 40%;
+    border-right: 0.5px solid #e7e7e8;
+    border-left: 0.5px solid #e7e7e8;
+    position: relative;
+}
+.scrollable-section{
+    width: 100%;
+    background-color: #198cd8;
+    position: relative;
+}
+.nav-bar-info{
+    display: flex;
+    background-color: inherit;
+    align-items: center;
+}
+.page{
+    font-size: 20px;
+    font-weight: 700;
+    padding-left: 15px;
+}
+.top-tweets{
+    padding-right: 10px;
+}
+.temp{
+    font-size: 28px;
+    padding: 8px;
+    border-radius: 50%;
+}
+.temp:hover{
+    background-color: #e7e7e8;
+}
+.profile-postbox{
+    height: 50px;
+    width: 50px;
+}
+.profile-postbox > img{
+    height: inherit;
+    width: inherit;
+    object-fit: cover;
+    border-radius: 50%;
+}
+.post-box{
+    padding-top: 4rem !important;
+    display: flex;
+    padding: 15px;
+    border-bottom: 0.5px solid #e7e7e8;
+}
+.input-section{
+    margin-left: 10px;
+    margin-top: 5x !important;
+    width: 100%;
+}
+.input > input{
+    font-size: 18px;
+    border: none;
+    width: 100%;
+    margin-bottom: 10px;
+}
+.input-icons{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.icons-post .material-symbols-rounded{
+    font-size: 20px;
+    color: #1d9bf0;
+    font-weight: 500 !important;
+    cursor: pointer;
+    padding: 3px;
+    background-color: red;
+}
+.icons-post .material-symbols-rounded:hover{
+    background-color: #e8f5fd;
+}
+.tweets{
+    background-color: #198cd8;
+    border: none;
+    padding: 10px 20px 10px;
+    border-radius: 30px;
+    
 }
